@@ -2,18 +2,10 @@ import React from "react";
 import Dark from "./dark/Dark";
 import Light from "./light/Light";
 import propTypes from "prop-types";
-const defaultFontSize = 30;
-const defaultFontWeight = 800;
 const index = ({ children, fontSize, fontWeight, colorMode }) => {
-	const wrapper = {
-		style: {
-			fontSize: fontSize ? fontSize : defaultFontSize,
-			fontWeight: fontWeight ? fontWeight : defaultFontWeight,
-		},
-	};
-	const helperProps = { children };
+	const helperProps = { children, fontSize, fontWeight };
 	return (
-		<div {...wrapper} style={{ fontWeight: "bold" }}>
+		<div>
 			{colorMode === "dark" ? (
 				<Dark {...helperProps} />
 			) : (
