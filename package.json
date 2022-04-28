@@ -1,6 +1,6 @@
 {
 	"name": "rainbow-text-react",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"description": "Generate Rainbow Text in React",
 	"main": "./build/index.js",
 	"scripts": {
@@ -22,5 +22,12 @@
 		"@material/react-button": "^0.15.0",
 		"prop-types": "^15.8.1",
 		"react": "^16.12.0"
-	}
+	},
+	"keywords": [
+		"rainbow",
+		"react",
+		"text",
+		"rainbow-text-react",
+		"react-rainbow-text"
+	]
 }
