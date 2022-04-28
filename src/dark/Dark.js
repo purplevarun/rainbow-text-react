@@ -5,8 +5,8 @@ const Dark = ({ children, fontSize, fontWeight }) => {
 		<span
 			id="rainbow-text-dark"
 			style={{
-				fontSize: fontSize ? fontSize : "30px",
-				fontWeight: "bold",
+				fontSize: fontSize ? fontSize : 50,
+				fontWeight: fontWeight ? fontWeight : 500,
 			}}
 		>
 			{children}

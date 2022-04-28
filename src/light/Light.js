@@ -5,8 +5,8 @@ const Light = ({ children, fontSize, fontWeight }) => {
 		<span
 			id="rainbow-text-light"
 			style={{
-				fontSize: fontSize ? fontSize : "30px",
-				fontWeight: "bold",
+				fontSize: fontSize ? fontSize : 50,
+				fontWeight: fontWeight ? fontWeight : 500,
 			}}
 		>
 			{children}
