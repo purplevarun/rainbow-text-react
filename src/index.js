@@ -1,12 +1,14 @@
 import React from "react";
 import Dark from "./dark/Dark";
 import Light from "./light/Light";
-const defaultFontSize = 30;
 import propTypes from "prop-types";
-const index = ({ children, fontSize, colorMode }) => {
+const defaultFontSize = 30;
+const defaultFontWidth = 600;
+const index = ({ children, fontSize, fontWidth, colorMode }) => {
 	const wrapper = {
 		style: {
 			fontSize: fontSize ? fontSize : defaultFontSize,
+			fontWidth: fontWidth ? fontWidth : defaultFontWidth,
 		},
 	};
 	const helperProps = { children };
