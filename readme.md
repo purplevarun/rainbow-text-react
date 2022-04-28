@@ -2,9 +2,9 @@
 
 # Demo
 
-![Demonstration](assets/demo.gif)
+<img src="assets/demo.gif"/>
 
-<a href="https://github.com/purplevarun/rainbow-text-react/tree/assets/App.jsx">Code for Demo</a>
+<a href="https://github.com/purplevarun/rainbow-text-react/blob/main/assets/App.jsx">Code for Demo</a>
 
 # Installation
 

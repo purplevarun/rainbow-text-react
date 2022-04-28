@@ -1,6 +1,6 @@
 {
 	"name": "rainbow-text-react",
-	"version": "1.4.0",
+	"version": "1.4.1",
 	"description": "Generate Rainbow Text in React",
 	"main": "./build/index.js",
 	"scripts": {
