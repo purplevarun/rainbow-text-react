@@ -1,0 +1,1 @@
+# React Rainbow Text Generator
