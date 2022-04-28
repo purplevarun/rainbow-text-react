@@ -2,6 +2,10 @@
 
 # Demo
 
+![Demonstration](assets/demo.gif)
+
+<a href="https://github.com/purplevarun/rainbow-text-react/tree/assets/App.jsx">Code for Demo</a>
+
 # Installation
 
 ## npm
