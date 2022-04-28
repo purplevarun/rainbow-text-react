@@ -3,17 +3,17 @@ import Dark from "./dark/Dark";
 import Light from "./light/Light";
 import propTypes from "prop-types";
 const defaultFontSize = 30;
-const defaultFontWidth = 800;
-const index = ({ children, fontSize, fontWidth, colorMode }) => {
+const defaultFontWeight = 800;
+const index = ({ children, fontSize, fontWeight, colorMode }) => {
 	const wrapper = {
 		style: {
 			fontSize: fontSize ? fontSize : defaultFontSize,
-			fontWidth: fontWidth ? fontWidth : defaultFontWidth,
+			fontWeight: fontWeight ? fontWeight : defaultFontWeight,
 		},
 	};
 	const helperProps = { children };
 	return (
-		<div {...wrapper}>
+		<div {...wrapper} style={{ fontWeight: "bold" }}>
 			{colorMode === "dark" ? (
 				<Dark {...helperProps} />
 			) : (
@@ -25,7 +25,7 @@ const index = ({ children, fontSize, fontWidth, colorMode }) => {
 index.PropTypes = {
 	children: propTypes.string,
 	fontSize: propTypes.number,
-	fontWidth: propTypes.number,
+	fontWeight: propTypes.number,
 	colorMode: "light" | "dark",
 };
 export default index;
