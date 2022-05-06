@@ -1,6 +1,6 @@
 {
 	"name": "rainbow-text-react",
-	"version": "1.5.2",
+	"version": "1.5.3",
 	"description": "Generate Rainbow Text in React",
 	"main": "./build/index.js",
 	"scripts": {
@@ -32,10 +32,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/purplevarun/isMobileHook.git"
+		"url": "git+https://github.com/purplevarun/rainbow-text-react.git"
 	},
 	"bugs": {
-		"url": "https://github.com/purplevarun/isMobileHook/issues"
+		"url": "https://github.com/purplevarun/rainbow-text-react/issues"
 	},
-	"homepage": "https://github.com/purplevarun/isMobileHook#readme"
+	"homepage": "https://github.com/purplevarun/rainbow-text-react#readme"
 }
