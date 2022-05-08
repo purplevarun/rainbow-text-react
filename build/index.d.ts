@@ -1,10 +1,10 @@
 import React from "react";
 
 export interface Props {
-	colorMode?: string;
+	colorMode?: "light" | "dark";
 	fontSize?: number;
 }
 
-declare const RainbowText: React.SFC<Props>;
+declare const RainbowText: (props: Props) => React.SFC<Props>;
 
 export default RainbowText;
