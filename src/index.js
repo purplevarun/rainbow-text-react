@@ -14,7 +14,7 @@ const index = ({ children, fontSize, fontWeight, colorMode }) => {
 		</div>
 	);
 };
-index.PropTypes = {
+index.propTypes = {
 	children: propTypes.string,
 	fontSize: propTypes.number,
 	fontWeight: propTypes.number,
