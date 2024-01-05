@@ -1,11 +1,12 @@
-import React from "react";
+// @ts-ignore
+import React from 'react'
 
 export interface Props {
-    colorMode?: "light" | "dark";
-    fontSize?: number;
-    fontWeight?: number;
+    colorMode?: 'light' | 'dark'
+    fontSize?: number
+    fontWeight?: number
 }
 
-declare const RainbowText: (props: Props) => React.SFC<Props>;
+declare const RainbowText: (props: Props) => React.SFC<Props>
 
-export default RainbowText;
+export default RainbowText

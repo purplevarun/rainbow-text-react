@@ -1,59 +1,59 @@
 #rainbow-text-light {
-	animation-name: rainbow-flicker-light;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
+    animation-name: rainbow-flicker-light;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 @keyframes rainbow-flicker-light {
-	0% {
-		background-image: linear-gradient(
-			to left,
-			red,
-			purple,
-			brown,
-			black,
-			magenta,
-			teal
-		);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	25% {
-		background-image: linear-gradient(
-			to left,
-			purple,
-			brown,
-			black,
-			magenta,
-			teal,
-			red
-		);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	50% {
-		background-image: linear-gradient(
-			to left,
-			brown,
-			black,
-			magenta,
-			teal,
-			purple,
-			red
-		);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-	100% {
-		background-image: linear-gradient(
-			to left,
-			magenta,
-			teal,
-			black,
-			brown,
-			purple,
-			red
-		);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
+    0% {
+        background-image: linear-gradient(
+            to left,
+            red,
+            purple,
+            brown,
+            black,
+            magenta,
+            teal
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    25% {
+        background-image: linear-gradient(
+            to left,
+            purple,
+            brown,
+            black,
+            magenta,
+            teal,
+            red
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    50% {
+        background-image: linear-gradient(
+            to left,
+            brown,
+            black,
+            magenta,
+            teal,
+            purple,
+            red
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100% {
+        background-image: linear-gradient(
+            to left,
+            magenta,
+            teal,
+            black,
+            brown,
+            purple,
+            red
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
